@@ -2,6 +2,7 @@
 C++ bypass for Cloudflare's anti-bot page (JavaScript challenge solver). 
 Function are using only parser setted unique for this js challenge.
 You have to care, cuz if CloudFlare will change their protection, that function will stop working.
+working atm (2017-06-06)
 
 ## Features
 - No dependencies (e.g. no JavaScript engine)
@@ -9,13 +10,13 @@ You have to care, cuz if CloudFlare will change their protection, that function 
 
 ## Default Cloudflare message
 ```
-	Checking your browser before accessing leagueoflegends.com.
-	
-	This process is automatic. Your browser will redirect to your requested content shortly.
-	
-	Please allow up to 5 seconds…
-	DDoS protection by Cloudflare
-	Ray ID: 
+Checking your browser before accessing leagueoflegends.com.
+
+This process is automatic. Your browser will redirect to your requested content shortly.
+
+Please allow up to 5 seconds…
+DDoS protection by Cloudflare
+Ray ID: 
 ```
 
 ## Example usage
