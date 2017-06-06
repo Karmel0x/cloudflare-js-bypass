@@ -30,3 +30,7 @@ retry:
 		goto retry;// retry request without CF challenge
 	}
 ```
+
+## Donations
+All donations are unnecessary and not expected, but greatly appreciated.
+Bitcoin: 168VLgYZHB8hpSbDjjNt7p5YozSMxGTFcT
