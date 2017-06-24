@@ -10,7 +10,7 @@ working atm (2017-06-06)
 
 ## Default Cloudflare message
 ```
-Checking your browser before accessing leagueoflegends.com.
+Checking your browser before accessing cloudflare-protected.site.
 
 This process is automatic. Your browser will redirect to your requested content shortly.
 
