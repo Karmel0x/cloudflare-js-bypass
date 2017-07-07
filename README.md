@@ -34,4 +34,4 @@ retry:
 ## Donations
 All donations are unnecessary and not expected, but greatly appreciated.
 
-Bitcoin: 168VLgYZHB8hpSbDjjNt7p5YozSMxGTFcT
+Bitcoin: 17SaMettdoMLnwJxQz4xy13PwrrUChp4aR
