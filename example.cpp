@@ -1,6 +1,7 @@
-#include "cloudflarebypass.h"
 #include <curl/curl.h>
 #include <iostream>
+#include <string>
+std::string solveCFJSChallenge(std::string response, std::string url);
 
 size_t CurlWrite_CallbackFunc_StdString(void *contents, size_t size, size_t nmemb, std::string *s){//curl
 	size_t newLength = size*nmemb;
