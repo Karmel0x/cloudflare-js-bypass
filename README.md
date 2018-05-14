@@ -1,4 +1,4 @@
-# cloudflare-js-bypass
+# cloudflare-js-bypass (Cloudflare bypass)
 C++ bypass for Cloudflare's anti-bot page (JavaScript challenge solver). 
 Function are using only parser setted unique for this js challenge.
 You have to care, cuz if CloudFlare will change their protection, that function will stop working.
