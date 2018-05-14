@@ -2,7 +2,7 @@
 C++ bypass for Cloudflare's anti-bot page (JavaScript challenge solver). 
 Function are using only parser setted unique for this js challenge.
 You have to care, cuz if CloudFlare will change their protection, that function will stop working.
-#since 2017-06-01 ##updated 2018-05-14
+#2017-06-01 ##updated 2018-05-14
 
 ## Features
 - No dependencies (e.g. no JavaScript engine)
