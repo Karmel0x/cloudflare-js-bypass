@@ -1,7 +1,7 @@
 #include <curl/curl.h>
 #include <iostream>
 #include <string>
-std::string solveCFJSChallenge(std::string response, std::string url);
+std::string solveCFJSChallenge(std::string response, std::string url);// cloudflarebypass.cpp
 
 size_t CurlWrite_CallbackFunc_StdString(void *contents, size_t size, size_t nmemb, std::string *s){//curl
 	size_t newLength = size*nmemb;
@@ -20,10 +20,11 @@ std::string CurlRequest(std::string url_, std::string ref = "", bool ssl = true)
 	std::string s;
 	if (curl){
 		curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0");
-		if (ref != "")curl_easy_setopt(curl, CURLOPT_REFERER, ref.c_str());//not necessary
+		if (ref != "")
+			curl_easy_setopt(curl, CURLOPT_REFERER, ref.c_str());//not necessary
 		if (ssl){
-			curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);//only for https
-			curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);//only for https
+			curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);//https
+			curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);//https
 		}
 		curl_easy_setopt(curl, CURLOPT_TIMEOUT, 8L);	   //reconnect timeout
 		curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 8L);//connect timeout
